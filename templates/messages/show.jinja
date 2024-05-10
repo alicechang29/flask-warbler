@@ -43,7 +43,7 @@
             </form>
             {% endif %}
 
-            {# if message id is one of the likes, then add a filled button #}
+            {# TODO: Fix up UI for Handling like/unlike #}
             {% if g.user.is_liked(message) %}
               <form method="POST"
                     action="/messages/{{ message.id }}/unlike">
@@ -55,7 +55,6 @@
                 </button>
               </form>
 
-            {# else add a unfilled button FIX POST ROUTE  #}
             {% else %}
               <form method="POST"
                     action="/messages/{{ message.id }}/like">

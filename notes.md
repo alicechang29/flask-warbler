@@ -1,21 +1,13 @@
 # Handling Likes
 
-Add route to show liked messages - DONE
-
-Add routes for POST requests to like/unlike
-
+- Add route to show liked messages - DONE
+- Add routes for POST requests to like/unlike - DONE
 - get all like instances `g.user.likes` - DONE
-
-Send all the liked message id's to the template
+- Send all the liked message id's to the template - DONE
 - `liked_message_ids = [msg.message_id for msg in curr_user.likes]`
-
-Update liked_messages jinja template with correct routes for form action
-
-Add an icon for heart (similar to Follow) onto message cards
-
-Give functionality to that icon/button so that users can like messages
-
-Add number of liked messages to profile page
+- Update liked_messages jinja template with correct routes for form action - DONE
+- Give functionality to that icon/button so that users can like messages - DONE
+- Add number of liked messages to profile page  - DONE
 
 Add link to profile page (replace TBD placeholder) to display all liked messages (similar to clicking on Following)
 
@@ -25,6 +17,7 @@ TODO: Update styling for uniformity
 buttons in nav bar
 log-in button
 - add labels to the edit forms so that it's outside the box
+- fix icon for heart onto message cards
 
 
 Running questions:

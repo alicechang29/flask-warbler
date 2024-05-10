@@ -254,8 +254,6 @@ def stop_following(follow_id):
         flash("Access unauthorized.", "danger")
         return redirect("/")
 
-# TODO: Add routes here for showing liked messages, like, unlike
-
 
 @app.get('/users/<int:user_id>/liked-messages')
 def show_liked_messages(user_id):
