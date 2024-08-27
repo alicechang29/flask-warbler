@@ -22,9 +22,8 @@ Warbler is a Flask-powered Twitter clone with functionality for users to:
 
 1. Go to [achang-warbler.onrender.com](https://achang-warbler.onrender.com/)
 2. Login
-
-- Username: tuckerdiane
-- Password: password
+   - Username: tuckerdiane
+   - Password: password
 
 ## Installation
 
