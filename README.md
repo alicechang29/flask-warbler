@@ -1,55 +1,32 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+# Warbler
 
-<a id="readme-top"></a>
+Warbler is a Flask-powered Twitter clone with functionality for users to:
 
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
+- Register
+- Sign in/out
+- Follow/unfollow other users
+- Like/unlike posts
+- Update their profile
+- View other user's profiles
+- View a feed of posts from users they follow
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+#### Built with: Python, Flask, Jinja, SQLAlchemy, PostgreSQL
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
+## Demo
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
+### Video Demo:
 
-<h3 align="center">Warbler</h3>
-
-  <p align="center">
-    Warbler is a Flask-powered Twitter clone with functionality for users to:
-        <ul>
-            <li> register </li>
-            <li> sign in/out </li>
-            <li> follow/unfollow other users </li>
-            <li> like/unlike posts </li>
-            <li> update their profile</li>
-            <li> view other user's profiles</li>
-            <li> view a feed of posts from users they follow </li>
-        <ul>
-    <br>
-    The backend was built with: Python, Flask, SQLAlchemy, PostgreSQL.
-    <br>
-    The frontend was built with Javascript, HTML, CSS.
-  </p>
-
-</div>
 [![Watch a demo](homepage.png)](https://youtu.be/EQ_4qoR9ePc)
 
-<!-- GETTING STARTED -->
+### Demo as a User:
 
-### Getting Started
+1. Go to [achang-warbler.onrender.com](https://achang-warbler.onrender.com/)
+2. Login
+
+- Username: tuckerdiane
+- Password: password
+
+## Installation
 
 To run this app locally:
 
@@ -96,14 +73,5 @@ flask run -p 5001
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/alicechang29/sharebnb.svg?style=for-the-badge
-[contributors-url]: https://github.com/alicechang29/sharebnb/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/alicechang29/sharebnb.svg?style=for-the-badge
-[forks-url]: https://github.com/alicechang29/sharebnb/network/members
-[stars-shield]: https://img.shields.io/github/stars/alicechang29/sharebnb.svg?style=for-the-badge
-[stars-url]: https://github.com/alicechang29/sharebnb/stargazers
-[issues-shield]: https://img.shields.io/github/issues/alicechang29/sharebnb.svg?style=for-the-badge
-[issues-url]: https://github.com/alicechang29/sharebnb/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/achang9
-[product-screenshot]: sharebnb/AllListings.png
