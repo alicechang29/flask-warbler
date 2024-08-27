@@ -16,7 +16,8 @@ from models import db, dbx, User
 #   $ DATABASE_URL=postgresql:///warbler_test python3 -m unittest
 
 if not app.config['SQLALCHEMY_DATABASE_URI'].endswith("_test"):
-    raise Exception("\n\nMust set DATABASE_URL env var to db ending with _test")
+    raise Exception(
+        "\n\nMust set DATABASE_URL env var to db ending with _test")
 
 # NOW WE KNOW WE'RE IN THE RIGHT DATABASE, SO WE CAN CONTINUE
 app.app_context().push()
@@ -45,3 +46,23 @@ class UserModelTestCase(TestCase):
         # User should have no messages & no followers
         self.assertEqual(len(u1.messages), 0)
         self.assertEqual(len(u1.followers), 0)
+
+
+# Does is_following successfully detect when user1 is following user2?
+
+
+# Does is_following successfully detect when user1 is not following user2?
+
+# Does is_followed_by successfully detect when user1 is followed by user2?
+
+# Does is_followed_by successfully detect when user1 is not followed by user2?
+
+# Does User.signup successfully create a new user given valid credentials?
+
+# Does User.signup fail to create a new user if any of the validations (eg uniqueness, non-nullable fields) fail?
+
+# Does User.authenticate successfully return a user when given a valid username and password?
+
+# Does User.authenticate fail to return a user when the username is invalid?
+
+# Does User.authenticate fail to return a user when the password is invalid?
